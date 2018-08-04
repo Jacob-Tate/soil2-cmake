@@ -1,7 +1,0 @@
-/home/night/Desktop/soil2/build/CMakeFiles/install/strip.dir
-/home/night/Desktop/soil2/build/CMakeFiles/edit_cache.dir
-/home/night/Desktop/soil2/build/CMakeFiles/soil2.dir
-/home/night/Desktop/soil2/build/CMakeFiles/rebuild_cache.dir
-/home/night/Desktop/soil2/build/CMakeFiles/list_install_components.dir
-/home/night/Desktop/soil2/build/CMakeFiles/install/local.dir
-/home/night/Desktop/soil2/build/CMakeFiles/install.dir
