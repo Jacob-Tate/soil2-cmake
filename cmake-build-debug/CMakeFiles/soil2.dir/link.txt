@@ -1,0 +1,1 @@
+/usr/bin/clang++-6.0 -fPIC -g  -shared -Wl,-soname,libsoil2.so -o libsoil2.so CMakeFiles/soil2.dir/src/SOIL2/etc1_utils.c.o CMakeFiles/soil2.dir/src/SOIL2/image_DXT.c.o CMakeFiles/soil2.dir/src/SOIL2/image_helper.c.o CMakeFiles/soil2.dir/src/SOIL2/SOIL2.c.o CMakeFiles/soil2.dir/src/common/common.cpp.o 

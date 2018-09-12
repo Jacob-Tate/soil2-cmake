@@ -31,7 +31,7 @@ set(SOIL2_SRC
         ${CMAKE_CURRENT_SOURCE_DIR}/src/common/common.cpp
 )
 
-add_library( soil2 STATIC ${SOIL2_HEADERS} ${SOIL2_SRC} )
+add_library( soil2 SHARED ${SOIL2_HEADERS} ${SOIL2_SRC} )
 
 target_include_directories(
         soil2 PUBLIC

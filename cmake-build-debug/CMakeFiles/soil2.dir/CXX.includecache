@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/night/temp/soil2-cmake/src/common/common.cpp
+common.hpp
+/home/night/temp/soil2-cmake/src/common/common.hpp
+string
+-
+cmath
+-
+climits
+-
+limits
+-
+CoreFoundation/CoreFoundation.h
+-
+windows.h
+-
+libgen.h
+-
+unistd.h
+-
+kernel/OS.h
+-
+kernel/image.h
+-
+stdlib.h
+-
+sys/sysctl.h
+-
+
+/home/night/temp/soil2-cmake/src/common/common.hpp
+string
+-
+

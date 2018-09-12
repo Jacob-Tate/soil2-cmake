@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="soil2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soil2">
+				<Option output="/home/night/temp/soil2-cmake/cmake-build-debug/libsoil2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/night/temp/soil2-cmake/src/SOIL2"/>
+					<Add directory="/home/night/temp/soil2-cmake/src/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 soil2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soil2/fast">
+				<Option output="/home/night/temp/soil2-cmake/cmake-build-debug/libsoil2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/night/temp/soil2-cmake/src/SOIL2"/>
+					<Add directory="/home/night/temp/soil2-cmake/src/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 soil2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/night/temp/soil2-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/night/temp/soil2-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/SOIL2.c">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/SOIL2.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/etc1_utils.c">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/etc1_utils.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/image_DXT.c">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/image_DXT.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/image_helper.c">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/image_helper.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/jo_jpeg.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/pkm_helper.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/pvr_helper.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stb_image.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stb_image_write.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_DDS.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_DDS_c.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_ext.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_ext_c.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_pkm.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_pkm_c.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_pvr.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/SOIL2/stbi_pvr_c.h">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/common/common.cpp">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/src/common/common.hpp">
+			<Option target="soil2"/>
+		</Unit>
+		<Unit filename="/home/night/temp/soil2-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
